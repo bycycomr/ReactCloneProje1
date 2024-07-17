@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react"; // Import useState from react
 
-function App() {
+import { Layout } from "antd";
+
+const { Sider, Header, Content } = Layout;
+const App = () => {
+  const  [collapsed, setCollapsed] = useState(false)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Sider theme="light" trigger={null} collapsible collapsed={collapsed} className='sider' > </Sider>
+      <Layout>
+        <Header> </Header>
+        <Content> </Content>
+      </Layout>
+    </Layout>
   );
-}
+};
 
 export default App;
