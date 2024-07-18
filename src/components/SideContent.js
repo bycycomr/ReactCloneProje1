@@ -1,7 +1,13 @@
+import { Flex } from "antd";
 import React from "react";
+import ContentSidebar from "./ContentSidebar";
 
 function SideContent() {
-  return <div style={{ width: 300 }}></div>;
+  return (
+    <Flex vertical gap='2.3rem' style={{ width: 350 }}>
+      <ContentSidebar />
+    </Flex>
+  );
 }
 
 export default SideContent;
