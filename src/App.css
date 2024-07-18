@@ -1,8 +1,52 @@
 /*Header*/
 .header {
  padding-top: 12px;
- background: #fff;
+ background: #fff ;
 }
+
+.header-icon {
+  background: #d2e3c8;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #4d6f52;
+  cursor: pointer;
+}
+/* Button and color */
+.ant-btn:hover {
+  color: #4d6f52 !important;
+  border-color: #4d6f52 !important;
+  
+}
+.ant-btn-primary {
+  background-color: #4d6f52;
+}
+
+.ant-btn-primary:hover {
+  background-color: #173a1a !important;
+  color: #fff !important;
+}
+.primary--color {
+  color: #4d6f52 !important;
+}
+.primary--light--color {
+  color: #739072 !important;
+}
+.secondary--color {
+  color: #86a789 !important;
+}
+.light--color{
+  color: #d2e3c8 !important;
+
+}
+.grey--color {
+  color: #b0b0b0 !important;
+}
+
+
+
+
+
 /*Content*/
 .content {
   margin: 24px 16px;
@@ -12,7 +56,16 @@
 /* Main app */
 
 
+
 /* button */
+
+.trigger-button:hover .anticon {
+  color: #060606;
+}
+
+.trigger-button .anticon {
+  color: #fff;
+}
 .trigger-button {
   font-size: 16px;
   width: 50px;
@@ -20,8 +73,11 @@
   position: fixed;
   bottom: 10px;
   left: 10px;
+  background-color: #4d6f52;
+  
   
 }
+
 /* Sider */
 .sider {
   height: 100vh;
@@ -34,6 +90,18 @@
 /* Logo */
 .logo {
   color: #4d6f52;
-  margin: 30px 0;
+  margin: 40px 0;
   font-size: 1.5rem;
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 500 ;
+
+}
+.ant-menu-item-selected {
+  background-color: #4d6f52 !important;
+  color: #fff !important;
 }

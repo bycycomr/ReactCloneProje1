@@ -4,10 +4,9 @@ import { FaLeaf } from "react-icons/fa";
 import {
   UserOutlined,
   ProfileOutlined,
-  LoginOutlined,
   OrderedListOutlined,
-  CarryOutOutlined,
   SettingOutlined,
+  LogoutOutlined,
 } from "@ant-design/icons";
 
 const Sidebar = () => {
@@ -36,23 +35,23 @@ const Sidebar = () => {
           },
           {
             key: "3",
-            icon: <LoginOutlined />,
+            icon: <OrderedListOutlined />,
             label: "ToDo",
           },
           {
             key: "4",
-            icon: <OrderedListOutlined />,
-            label: "Dashboard",
+            icon: <ProfileOutlined />,
+            label: "Profile",
           },
           {
             key: "5",
-            icon: <CarryOutOutlined />,
-            label: "Dashboard",
+            icon: <SettingOutlined />,
+            label: "Settings",
           },
           {
             key: "6",
-            icon: <SettingOutlined />,
-            label: "Dashboard",
+            icon: <LogoutOutlined />,
+            label: "Logout",
           }
         ]}
       />
