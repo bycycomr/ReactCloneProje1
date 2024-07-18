@@ -1,4 +1,21 @@
+/*Header*/
+.header {
+ padding-top: 12px;
+ background: #fff;
+
+  
+}
+/*Content*/
+.content {
+  margin: 24px 16px;
+  padding: 20px;
+}
+
 /* Main app */
+
+.trigger-button {
+  display: none;
+}
 
 /* Sider */
 .sider {
