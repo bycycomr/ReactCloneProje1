@@ -2,6 +2,7 @@ import { Flex } from "antd";
 import React from "react";
 import Banner from "./Banner";
 import ProductList from "./ProductList";
+import SellerLists from "./SellerLists";
 
 function MainContent() {
   return (
@@ -9,6 +10,7 @@ function MainContent() {
       <Flex vertical gap="2.2rem">
         <Banner />
         <ProductList />
+        <SellerLists />
       </Flex>
     </div>
   );
