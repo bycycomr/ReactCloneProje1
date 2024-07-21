@@ -1,3 +1,4 @@
+
 /*Header*/
 .header {
   padding-top: 12px;
@@ -117,4 +118,139 @@
 
 .card {
  background-image: linear-gradient(to bottom, #4c7f79, #87e8de);
+}
+
+/* Responsive Ayarlar */
+@media (max-width: 1200px) {
+  .header-icon {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .content {
+    margin: 20px 12px;
+    padding: 18px;
+  }
+  
+  .trigger-button {
+    width: 45px;
+    height: 45px;
+    bottom: 8px;
+    left: 8px;
+  }
+  
+  .logo {
+    margin: 30px 0;
+    font-size: 1.4rem;
+  }
+  
+  .plant-card {
+    height: 220px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    padding-top: 10px;
+  }
+
+  .content {
+    margin: 18px 10px;
+    padding: 16px;
+  }
+
+  .trigger-button {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    bottom: 6px;
+    left: 6px;
+  }
+  
+  .logo {
+    margin: 20px 0;
+    font-size: 1.3rem;
+  }
+
+  .plant-card {
+    height: 200px;
+  }
+
+  .menu-bar {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-top: 8px;
+  }
+
+  .header-icon {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  .content {
+    margin: 16px 8px;
+    padding: 14px;
+  }
+
+  .trigger-button {
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+    bottom: 4px;
+    left: 4px;
+  }
+  
+  .logo {
+    margin: 15px 0;
+    font-size: 1.2rem;
+  }
+
+  .plant-card {
+    height: 180px;
+  }
+
+  .menu-bar {
+    gap: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding-top: 6px;
+  }
+
+  .header-icon {
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  .content {
+    margin: 14px 6px;
+    padding: 12px;
+  }
+
+  .trigger-button {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    bottom: 2px;
+    left: 2px;
+  }
+  
+  .logo {
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+
+  .plant-card {
+    height: 160px;
+  }
+
+  .menu-bar {
+    gap: 4px;
+  }
 }
